@@ -13,7 +13,7 @@ Aqui você encontra a versão **pronta para copiar e colar**, que funciona sem e
 
 ---
 
-## 📖 Exemplo 1 — Soma de dois números
+## 📖 Página 15 — Soma de dois números
 
 ### Como aparece na apostila
 
@@ -42,5 +42,13 @@ programa
 		escreva("A soma é: ", s, "\n")
 	}
 }
+
+---
+
+### 💰 Aqui vai uma dica bonus para você!
+
+<img width="478" height="223" alt="Screenshot_2" src="https://github.com/user-attachments/assets/09cf31de-1425-41a6-b9ab-08318a009cd1" />
+
+
 
 
