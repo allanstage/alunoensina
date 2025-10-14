@@ -26,6 +26,8 @@ Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 - [Cadastro simples de informações](t1)
 - [Área do Triângulo](#t2)
 - [Média de notas de um aluno](#t3)
+- [Feliz ano novo! 2026](#t4)
+- [Média de combustível](#t5)
 
   
 ---
@@ -305,7 +307,7 @@ programa
 }
 ```
 ---
-<a name="t2o"></a>
+<a name="t2"></a>
 ##### 2- Área do Triângulo
 
 **Descrição:**  
@@ -378,6 +380,7 @@ programa
 }
 ```
 ---
+<a name="t4"></a>
 ##### 4- Feliz ano novo! 2026
 Você vai criar um programa que conta regressivamente de 10 até 1,
 simulando a chegada do Ano Novo, exibe uma mensagem final de comemoração.
@@ -403,6 +406,7 @@ programa
 }
 ```
 ---
+<a name="t5"></a>
 ##### 5- Média de combustível
 **Descrição:**  
 Este programa calcula a média de consumo de um carro.
