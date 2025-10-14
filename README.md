@@ -24,7 +24,8 @@ Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 - [Bônus — Estrutura básica](#bonus)
 - [Exercícios para treino](#treino)
 - [Exemplo 2 — Área do Triângulo](#triangulo)
-- [Exemplo 3 — Média de notas de um aluno](#media)mplo 3 — Média de notas de um aluno](#exemplo-3--média-de-notas-de-um-aluno)
+- [Exemplo 3 — Média de notas de um aluno](#media)
+
   
 ---
 <a name="pg15"></a>
@@ -108,6 +109,7 @@ programa
 }
 ```
 ---
+<a name="pg36"></a>
 #### 📖 Página 36 — Problema 2
 🎯 Objetivo do algoritmo:
 
@@ -138,8 +140,8 @@ programa
 }
 ```
 ---
-
-#### 10 Super dicas para 
+<a name="dicas"></a>
+#### 10 Super dicas para destravar sua mente
 
 1. **Entenda o propósito de aprender com PORTUGOL STUDIO.**
 
@@ -159,8 +161,15 @@ Agora você está pronto para trocar o Portugol para uma linguagem de programaç
 **Escolha uma única linguagem de programação** e faça os 100 exercícios.
 
 ---
+## 2. COMECE COM O PORTUGOL STUDIO  
 
+💭 **PORQUE:**  
+Instale o Portugol Studio — ele é estável, mostra erros e facilita o aprendizado.  
+
+🧩 **ONDE BAIXAR:**  
+👉 [https://univali-lite.github.io/Portugol-Studio](https://univali-lite.github.io/Portugol-Studio)
 ---
+
 ### Bonus 
 
 No Portugol Studio, a estrutura básica de um código completo precisa começar com a palavra-chave `programa`.
