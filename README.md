@@ -15,28 +15,29 @@ Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 
 
 
-# 📚 Menu de Navegação
+#### 📚 Menu de Navegação
 
-- [Página 15 — Soma de dois números](#pg15)
-- [Página 32 — Problema 1](#pg32)
-- [Página 36 — Problema 2](#pg36)
-- [10 Super dicas](#dicas)
-- [Bônus — Estrutura básica](#bonus)
-- [Exercícios para treino](#treino)
-- [Exemplo 2 — Área do Triângulo](#triangulo)
-- [Exemplo 3 — Média de notas de um aluno](#media)
+- [📖Página 15 — Soma de dois números](#pg15)
+- [📖Página 32 — Problema 1](#pg32)
+- [📖Página 36 — Problema 2](#pg36)
+ _____________________________________________________ 
+- [🚀10 Super dicas para destravar sua mente](#dicas) 
+- Exercícios para treino
+- [Cadastro simples de informações](t1)
+- [Área do Triângulo](#t2)
+- [Média de notas de um aluno](#t3)
 
   
 ---
 <a name="pg15"></a>
-##  Página 15 — Soma de dois números
+#### 📖 Página 15 — Soma de dois números
 
-### Como aparece na apostila
+##### Como aparece na apostila
 
 <img width="398" height="220" alt="Screenshot_1" src="https://github.com/user-attachments/assets/4cd3481d-13ef-448f-9b7e-6811f91af8b7" />
 
 
-### 💻 Código que funciona no Portugol Studio 💡
+#### 💻 Código que funciona no Portugol Studio 💡
 
 ```portugol
 programa
@@ -61,15 +62,15 @@ programa
 ---
 
 <a name="pg32"></a>
-#### Página 32 — Problema 1
+#### 📖 Página 32 — Problema 1
 🎯Objetivo do algoritmo:
 
 Ler e apresentar nome, idade, peso, altura e telefone de uma pessoa.
-### Como aparece na apostila
+##### Como aparece na apostila
 
 <img width="445" height="530" alt="pagina 32 - problema1" src="https://github.com/user-attachments/assets/14ce9907-100c-4a9f-b6ef-d2319bfc8e3c" />
 
-### 💻 Código que funciona no Portugol Studio 💡
+##### 💻 Código que funciona no Portugol Studio 💡
 
 ```portugol
 programa
@@ -111,14 +112,14 @@ programa
 ---
 <a name="pg36"></a>
 #### 📖 Página 36 — Problema 2
-🎯 Objetivo do algoritmo:
+Objetivo do algoritmo:
 
 calcular o perímetro e a área de um quadrado.
-### Como aparece na apostila
+##### Como aparece na apostila
 
 <img width="444" height="311" alt="problema 2" src="https://github.com/user-attachments/assets/dbb75d89-d580-4dd4-aa06-c8e8c7d74057" />
 
-### 💻 Código que funciona no Portugol Studio 💡
+##### 💻 Código que funciona no Portugol Studio 💡
 
 ```portugol
 programa
@@ -141,9 +142,10 @@ programa
 ```
 ---
 <a name="dicas"></a>
-#### 10 Super dicas para destravar sua mente
+##  Super dicas para destravar sua mente!!! ⚡
+---
 
-1. **Entenda o propósito de aprender com PORTUGOL STUDIO.**
+##### 1. Entenda o propósito de aprender com PORTUGOL STUDIO.
 
 💭 **PORQUE:**  
 Só para treinar com exercícios de lógica de programação.  
@@ -161,16 +163,56 @@ Agora você está pronto para trocar o Portugol para uma linguagem de programaç
 **Escolha uma única linguagem de programação** e faça os 100 exercícios.
 
 ---
-## 2. COMECE COM O PORTUGOL STUDIO  
+##### 2.Tipos principais no Portugol Studio
 
-💭 **PORQUE:**  
-Instale o Portugol Studio — ele é estável, mostra erros e facilita o aprendizado.  
+inteiro → números completos sem vírgula, sem ponto. 
+Ex: inteiro  numero
 
-🧩 **ONDE BAIXAR:**  
-👉 [https://univali-lite.github.io/Portugol-Studio](https://univali-lite.github.io/Portugol-Studio)
+	numero = 10
+
+real → números com ponto
+Ex: real ponto
+
+	ponto = 3.14
+
+cadeia → texto
+Ex: cadeia nome
+
+	nome = "olá"
+
+logico → verdadeiro/falso
+	Ex: logico mundial
+	
+	palmeiras = mundial
+```portugol
+programa
+{
+    funcao inicio()
+    {
+        logico mundial
+        inteiro palmeiras
+
+        palmeiras = 51
+        mundial = verdadeiro
+        
+        escreva("Qual o ano que o palmeiras ganhou o mundial: ")
+        leia(palmeiras)
+
+        se (palmeiras == 51) {
+            escreva("Palmeiras tem mundial! \n")
+            escreva(" Título é verdairo ou falso? ",mundial)
+        } senao {
+            escreva("51 é pinga! ")
+            
+        }
+    }
+}
+```
+
+
+
 ---
-
-### Bonus 
+##### 3. Estrutura basica do programa
 
 No Portugol Studio, a estrutura básica de um código completo precisa começar com a palavra-chave `programa`.
 
@@ -192,7 +234,7 @@ programa
 ```
 ---
 
-### Visualize um bloco de codigo como uma caixa
+##### Visualize um bloco de codigo como uma caixa
 
 O que fica entre '{ }' funciona como uma caixa que guarda comandos relacionados.
 
@@ -203,14 +245,38 @@ e depois tudo está dentro de `funcao inicio()`
 <img width="358" height="338" alt="Screenshot_3" src="https://github.com/user-attachments/assets/3174b8b2-fd3e-4cc5-9edf-a5e429819d7c" />
 
 ---
+##### 4. Entenda o fluxo (Entrada,Processamento,Saída)
+
+💭 Lógica:
+Todo programa segue a mesma lógica:
+entra dado → processa → mostra resultado.
+
+🧩 Todo programa resolve alguma coisa.
+
+```portugol
+programa
+{
+   funcao inicio()
+   {
+      real numero, resultado
+
+      escreva("Digite um número: ") 			// Entrada
+      leia(numero)
+
+      resultado = numero * 2					// Processamento
+
+      escreva("O dobro é: ", resultado, "\n")   // Saída
+   }
+}
+```
+---
 
 
-
-
-
-### — Exercícios para treino 🏆
-- Cadastro simples de informações
-
+ — Exercícios para treino 🏆
+ ---
+ <a name="t1"></a>
+##### 1- Cadastro simples de informações
+**Descrição:**  
 Este exercício tem como objetivo mostrar o uso de variáveis em um programa simples.
 O algoritmo pede ao usuário que informe seu nome, idade e altura, e em seguida exibe as informações formatadas na tela.
 
@@ -239,8 +305,8 @@ programa
 }
 ```
 ---
-
-### Exemplo 2: Área do Triângulo
+<a name="t2o"></a>
+##### 2- Área do Triângulo
 
 **Descrição:**  
 Calcule a área de um triângulo a partir da base e altura fornecidas pelo usuário. O programa deve mostrar o cálculo completo e o resultado.
@@ -271,9 +337,9 @@ programa
 }
 ```
 ---
-
-### Exemplo 3 — Média de notas de um aluno
-🧠 Introdução
+<a name="t3"></a>
+##### 3 - Média de notas de um aluno
+**Descrição:**  
 
 Este exercício tem como objetivo ler o nome, a idade e duas notas de um aluno, calcular a média das notas e exibir os resultados na tela.
 Além disso, o programa adiciona 0.5 ponto de bônus à média final — uma forma divertida de mostrar como atualizar valores em variáveis.
@@ -308,6 +374,57 @@ programa
 		escreva("Nota atual: ",soma)
 		
 		
+	}
+}
+```
+---
+##### 4- Feliz ano novo! 2026
+Você vai criar um programa que conta regressivamente de 10 até 1,
+simulando a chegada do Ano Novo, exibe uma mensagem final de comemoração.
+
+```portugol
+programa
+{
+   funcao inicio()
+   {
+      inteiro numero
+      numero = 10  // contagem regressiva de 10 até 1
+
+      escreva("Contagem regressiva para o Ano Novo!\n\n")
+
+      enquanto (numero > 0)
+      {
+         escreva(numero, "\n")
+         numero = numero - 1
+      }
+
+      escreva("\nFeliz Ano Novo! 2026 \n")
+   }
+}
+```
+---
+##### 5- Média de combustível
+**Descrição:**  
+Este programa calcula a média de consumo de um carro.
+O usuário informa quantos quilômetros percorreu e quantos litros de combustível gastou.
+O programa retorna quantos quilômetros o carro faz com 1 litro de combustível.
+
+```portugol
+programa
+{
+	funcao inicio()
+	{
+
+		real km, litros, media
+
+		escreva("Digite quantos km andou: ")
+		leia(km)
+		escreva("Digite quantos litros gastou: ")
+		leia(litros)
+
+		media = km / litros
+
+		escreva("Seu carro anda ", media, " km com 1 litro.")
 	}
 }
 ```
