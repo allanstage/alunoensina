@@ -11,6 +11,8 @@ Os exemplos da apostila são **pseudocódigos**,
 Eles servem para entender a lógica, mas **não funcionam diretamente no Portugol Studio**.  
 Aqui você encontra a versão **pronta para copiar e colar**, que funciona sem erros.
 
+Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
+
 ---
 
 ## 📖 Página 15 — Soma de dois números
@@ -68,9 +70,10 @@ programa
 
 ### Visualize um bloco de codigo como uma caixa
 
-O que fica entre { } no (Portugol, C, Java etc.) funciona como uma caixa que guarda comandos relacionados.
+O que fica entre '{ }' funciona como uma caixa que guarda comandos relacionados.
 
-Na imagem a seguir: Tudo está dentro de PROGRAMA, e depois tudo está dentro de funcao inicio()
+Na imagem a seguir: Tudo está dentro da palavra `programa`,
+e depois tudo está dentro de `funcao inicio()`
 
 
 <img width="358" height="338" alt="Screenshot_3" src="https://github.com/user-attachments/assets/3174b8b2-fd3e-4cc5-9edf-a5e429819d7c" />
