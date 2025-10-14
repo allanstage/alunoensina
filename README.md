@@ -13,6 +13,16 @@ Aqui você encontra a versão **pronta para copiar e colar**, que funciona sem e
 
 Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 
+# 📚 Menu de Navegação
+
+- [Página 15 — Soma de dois números](#página-15--soma-de-dois-números)
+- [Página 32 — Problema 1](#página-32--problema-1)
+- [Página 36 — Problema 2](#página-36--problema-2)
+- [10 Super dicas](#10-super-dicas-para)
+- [Bônus — Estrutura básica](#bonus)
+- [Exercícios para treino](#--exercícios-para-treino-)
+- [Exemplo 2 — Área do Triângulo](#exemplo-2--área-do-triângulo)
+- [Exemplo 3 — Média de notas de um aluno](#exemplo-3--média-de-notas-de-um-aluno)
 ---
 
 ## 📖 Página 15 — Soma de dois números
@@ -46,39 +56,6 @@ programa
 
 ---
 
-### Bonus 
-
-No Portugol Studio, a estrutura básica de um código completo precisa começar com a palavra-chave `programa`.
-
-👉 **Explicando de forma simples:**
-
-- `programa` → diz ao Portugol Studio que tudo o que vem dentro das chaves `{ }` faz parte do teu programa.  
-- `funcao inicio()` → é o bloco principal que será executado quando o programa rodar.
-
-Então, o código completo fica assim:
-
-```portugol
-programa
-{
-	funcao inicio()
-	{
-		escreva("Olá mundo!")
-	}
-}
-```
----
-
-### Visualize um bloco de codigo como uma caixa
-
-O que fica entre '{ }' funciona como uma caixa que guarda comandos relacionados.
-
-Na imagem a seguir: Tudo está dentro da palavra `programa`,
-e depois tudo está dentro de `funcao inicio()`
-
-
-<img width="358" height="338" alt="Screenshot_3" src="https://github.com/user-attachments/assets/3174b8b2-fd3e-4cc5-9edf-a5e429819d7c" />
-
----
 
 ## 📖 Página 32 — Problema 1
 🎯Objetivo do algoritmo:
@@ -159,7 +136,61 @@ programa
 ```
 ---
 
+#### 10 Super dicas para 
 
+1. **Entenda o propósito de aprender com PORTUGOL STUDIO.**
+
+💭 **PORQUE:**  
+Só para treinar com exercícios de lógica de programação.  
+
+🧩 **COMO:**  
+Pegue um exercício e faça.  
+Digite olhando de um código pronto.  
+Depois faça sem olhar.  
+
+⏳ **ATÉ QUANDO:**  
+Quando você tiver feito 100 exercícios.  
+
+🏁 **FIM:**  
+Agora você está pronto para trocar o Portugol para uma linguagem de programação
+**Escolha uma única linguagem de programação** e faça os 100 exercícios.
+
+---
+
+---
+### Bonus 
+
+No Portugol Studio, a estrutura básica de um código completo precisa começar com a palavra-chave `programa`.
+
+👉 **Explicando de forma simples:**
+
+- `programa` → diz ao Portugol Studio que tudo o que vem dentro das chaves `{ }` faz parte do teu programa.  
+- `funcao inicio()` → é o bloco principal que será executado quando o programa rodar.
+
+Então, o código completo fica assim:
+
+```portugol
+programa
+{
+	funcao inicio()
+	{
+		escreva("Olá mundo!")
+	}
+}
+```
+---
+
+### Visualize um bloco de codigo como uma caixa
+
+O que fica entre '{ }' funciona como uma caixa que guarda comandos relacionados.
+
+Na imagem a seguir: Tudo está dentro da palavra `programa`,
+e depois tudo está dentro de `funcao inicio()`
+
+
+<img width="358" height="338" alt="Screenshot_3" src="https://github.com/user-attachments/assets/3174b8b2-fd3e-4cc5-9edf-a5e429819d7c" />
+
+---
 
 
 
