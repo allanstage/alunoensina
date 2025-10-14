@@ -13,19 +13,22 @@ Aqui você encontra a versão **pronta para copiar e colar**, que funciona sem e
 
 Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 
+
+
 # 📚 Menu de Navegação
 
-- [Página 15 — Soma de dois números](#página-15--soma-de-dois-números)
-- [Página 32 — Problema 1](#página-32--problema-1)
-- [Página 36 — Problema 2](#página-36--problema-2)
-- [10 Super dicas](#10-super-dicas-para)
+- [Página 15 — Soma de dois números](#pg15)
+- [Página 32 — Problema 1](#pg32)
+- [Página 36 — Problema 2](#pg36)
+- [10 Super dicas](#dicas)
 - [Bônus — Estrutura básica](#bonus)
-- [Exercícios para treino](#--exercícios-para-treino-)
-- [Exemplo 2 — Área do Triângulo](#exemplo-2--área-do-triângulo)
-- [Exemplo 3 — Média de notas de um aluno](#exemplo-3--média-de-notas-de-um-aluno)
+- [Exercícios para treino](#treino)
+- [Exemplo 2 — Área do Triângulo](#triangulo)
+- [Exemplo 3 — Média de notas de um aluno](#media)mplo 3 — Média de notas de um aluno](#exemplo-3--média-de-notas-de-um-aluno)
+  
 ---
-
-## 📖 Página 15 — Soma de dois números
+<a name="pg15"></a>
+##  Página 15 — Soma de dois números
 
 ### Como aparece na apostila
 
@@ -56,8 +59,8 @@ programa
 
 ---
 
-
-## 📖 Página 32 — Problema 1
+<a name="pg32"></a>
+#### Página 32 — Problema 1
 🎯Objetivo do algoritmo:
 
 Ler e apresentar nome, idade, peso, altura e telefone de uma pessoa.
@@ -105,7 +108,7 @@ programa
 }
 ```
 ---
-## 📖 Página 36 — Problema 2
+#### 📖 Página 36 — Problema 2
 🎯 Objetivo do algoritmo:
 
 calcular o perímetro e a área de um quadrado.
