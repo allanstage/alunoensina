@@ -165,27 +165,41 @@ Agora você está pronto para trocar o Portugol para uma linguagem de programaç
 **Escolha uma única linguagem de programação** e faça os 100 exercícios.
 
 ---
-##### 2.Tipos principais no Portugol Studio
 
-inteiro → números completos sem vírgula, sem ponto. 
-Ex: inteiro  numero
+##### 2 — Tipos de variáveis no Portugol Studio
 
-	numero = 10
+inteiro**
+Usado para números inteiros, sem vírgula nem ponto.
+Exemplo:
 
-real → números com ponto
-Ex: real ponto
+inteiro numero
+numero = 10
 
-	ponto = 3.14
 
-cadeia → texto
-Ex: cadeia nome
+real
+Usado para números com parte decimal (use ponto no lugar da vírgula).
+Exemplo:
 
-	nome = "olá"
+real ponto
+ponto = 3.14
 
-logico → verdadeiro/falso
-	Ex: logico mundial
+
+cadeia
+Usado para textos (sequência de caracteres entre aspas).
+Exemplo:
+
+cadeia nome
+nome = "olá"
+
+
+lógico
+Usado para valores verdadeiro ou falso.
+Exemplo:
+
+logico tem_mundial
+tem_mundial = verdadeiro
+
 	
-	palmeiras = mundial
 ```portugol
 programa
 {
@@ -202,7 +216,7 @@ programa
 
         se (palmeiras == 51) {
             escreva("Palmeiras tem mundial! \n")
-            escreva(" Título é verdairo ou falso? ",mundial)
+            escreva(" Título é verdadeiro ou falso? ",mundial)
         } senao {
             escreva("51 é pinga! ")
             
@@ -300,8 +314,8 @@ programa
 		escreva("Qual sua altura: ")
 		leia(altura)
 
-		escreva("Seu nome é: ",nome)
-		escreva("Sua idade é: ",idade)
+		escreva("Seu nome é: ",nome,"\n")
+		escreva("Sua idade é: ",idade,"\n")
 		escreva("Sua altura é: ", altura)
 	}	
 }
