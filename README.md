@@ -9,7 +9,7 @@ convertidos para códigos funcionais no Portugol Studio.**
 
 Os exemplos da apostila são **pseudocódigos**,
 Eles servem para entender a lógica, mas **não funcionam diretamente no Portugol Studio**.  
-Aqui você encontra a versão **pronta para copiar e colar**, que funciona sem erros.
+Aqui você encontra a versão que funciona e sem erros.
 
 Download do Portugol Studio: https://univali-lite.github.io/Portugol-Studio
 
