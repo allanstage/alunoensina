@@ -1,7 +1,7 @@
 # alunoensina
 
-**Exercícios de lógica de programação da apostila da Unicesumar,
-convertidos para códigos funcionais no Portugol Studio.**
+**Exercícios da apostila da Unicesumar,
+convertidos para ajudar alunos com o Portugol Studio.**
 
 ---
 
